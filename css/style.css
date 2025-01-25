@@ -23,7 +23,6 @@
   text-align: right;
 
   background-image: url(/portfolio/Images/main-banner.png);
-
 }
 
 .main-section__welcome {
@@ -410,4 +409,146 @@
 
 .partner {
   padding: 0 1.87rem;
+}
+@media only screen and (max-width: 991px) {
+  /*main*/
+  .main-section__image {
+    display: none;
+  }
+  .main-section > div {
+    width: 100%;
+  }
+  /*statistics*/
+  .statistics {
+    padding: 1rem;
+    text-align: center;
+  }
+  /*About me*/
+  .about-me {
+    padding: 1.5rem 0;
+  }
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me__image img {
+    display: none;
+  }
+  /*servis*/
+  .services {
+    padding: 1.5rem 0;
+  }
+
+  .services__cards {
+    flex-direction: column;
+  }
+  .service-card {
+    width: 45%;
+    margin-bottom: 20px;
+  }
+  /*Client*/
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  /*Main section*/
+  .main-banner {
+    background: none;
+    min-height: auto;
+  }
+  .main-section__image {
+    display: none;
+  }
+  .main-section__action {
+    display: none;
+  }
+  .main-section > div {
+    width: 100%;
+  }
+  .main-section__introduction {
+    font-size: 3rem;
+  }
+
+  /*Statistics*/
+
+  .statistics__item {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    box-shadow: border-box;
+  }
+  .statistics {
+    flex-direction: column;
+  }
+  /*About me section */
+  .about-me {
+    padding: 1.5rem 0;
+  }
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me__image {
+    display: none;
+  }
+  /*Services section*/
+  .services {
+    padding: 1.5rem 0;
+  }
+  .service-card {
+    width: 100%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  /*Client*/
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+
+  /*portfolio*/
+  .portfolio {
+    padding: 1.5rem 0;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+  .portfolio-item-2,
+  .portfolio-item-3 {
+    position: static;
+  }
+  /*Blog*/
+  .blog-items {
+    display: inline-block;
+  }
+  .blog {
+    padding: 1.5rem 0;
+  }
+  .blog-item {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  /*Parters*/
+  .partners {
+    padding: 1.5rem 0;
+  }
+  .partners {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  /*footer*/
+  .footer__navigation {
+    display: none;
+  }
 }
